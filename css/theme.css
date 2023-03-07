@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-wrapper {
+    position: relative;
+}
+
+.bg-img img {
+    width: 100%;
+}
+
+.background {
+    position: relative;
+}
+
+.logos-wrapper img {
+    width: 80px;
+}
+
+.left-side {
+    position: absolute;
+    top: 0;
+}
+
+.right-side {
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    
+    }
+
+.carousel-caption h1 {
+    color: rgb(255, 170, 0);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    margin-bottom: 0;
+    font-size: 60px;
+    text-align: center;
+}
+
+.carousel-caption h6 {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-left: 180px;
+}
+
+.side-img {position: absolute;
+bottom: 0;
+padding-left: 55%;
+transform: translateX(-50%);
+display: block;
+}
+.side-img img {width: 50%;
+
+}
+.side-text ul li{list-style: none;
+color: white;}
+.side-text {position: absolute;
+    bottom: 0;
+   right: 19%;
+    display: block}
+.side-text img {font-size: larger;
+
+}
+
+
+
+.side-img ul li{list-style: none;
+    color: white;
+    font-size: 30px;
+}
+.animate__animated.animate__fadeInLeft {
+    --animate-duration: 2s;
+  }
+.animate__animated.animate__fadeInRight {
+    --animate-duration: 2s;
+  }
+
+  /* GC */
+ 
+        
+ 
+  
+  @media (min-width: 699px) {.w-smal-L{width: 105%;}  }
+  @media (min-width: 699px) {.w-smal-s{font-size: 50px;}  }
